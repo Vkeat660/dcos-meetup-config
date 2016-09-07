@@ -1,0 +1,16 @@
+{
+    "id": "kafka-producer",
+    "container": {
+    "type": "DOCKER",
+    "docker": {
+
+          "network": "BRIDGE",
+          "image": "vvvvvv/kafka-producer"
+        }
+    },
+    "acceptedResourceRoles": ["slave_public"],
+    "forcePullImage": false,
+    "instances": 1,
+    "cpus": 0.1,
+    "mem": 64
+}
