@@ -1,13 +1,13 @@
 {
-    "id": "kafka-producer",
+    "id": "kafka-consumer",
     "container": {
     "type": "DOCKER",
     "docker": {
 
           "network": "BRIDGE",
-          "image": "vvvvvv/kafka-producer",
-          "forcePullImage": false
-        }
+          "image": "vvvvvv/kafka-consumer",
+          "forcePullImage": true
+      }
     },
     "acceptedResourceRoles": ["slave_public"],
     "instances": 1,
